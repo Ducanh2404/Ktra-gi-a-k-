@@ -21,5 +21,16 @@
     border-left: solid black 2px;
 }
 .input-khach{
-    margin-left: 10px;
+    padding-left: 10px;
+    border-bottom: solid black 2px;;
 }
+.button{
+    display: flex;
+    justify-content: center;
+}
+.noti{
+    display: flex;
+    justify-content: center;
+    color: orange;
+}
+

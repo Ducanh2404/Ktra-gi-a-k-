@@ -24,7 +24,7 @@
         </div>
         <div class="box">
             <div class="label">
-                Họ và tên
+                Địa chỉ
             </div>
             <div class="input">
                 <input type="text" id="add">
@@ -32,15 +32,23 @@
         </div>
         <div class="box">
             <div class="label">
-                Họ và tên
+                Điện thoại
             </div>
             <div class="input">
-                <input type="checkbox" id="phone" >
+                <input type="text" id="phone">
             </div>
         </div>
         <div class="box">
             <div class="label">
-                Họ và tên
+                Khách Việt Nam
+            </div>
+            <div class="input">
+                <input type="checkbox" id="vn" >
+            </div>
+        </div>
+        <div class="box">
+            <div class="label">
+                Chọn tour
             </div>
             <div class="input">
                 <select name="" id="tour">
@@ -50,11 +58,11 @@
         </div>
         <div class="box">
             <div class="label">
-                Họ và tên
+                Phương tiện
             </div>
             <div class="input">
-                <input type="radio" name="" id="">Máy Bay
-                <input type="radio" name="" id="">Xe ô tô
+                <input type="radio" name="" id="rd1">Máy Bay
+                <input type="radio" name="" id="rd2">Xe ô tô
             </div>
         </div>
         <div class="box">
@@ -63,20 +71,25 @@
            </div>
         </div>
         <div class="input-khach">
-            Người lớn<input type="text">
-            Trẻ em<input type="text">
+            Người lớn<input type="text" id="adult">
+            Trẻ em<input type="text" id="kid">
        </div>
        <div class="box">
         <div class="label">
-            Họ và tên
+            Ghi chú thêm
         </div>
         <div class="input">
-            <input type="text" id="phone" >
+            <input type="text" id="note" >
         </div>
     </div>
-       
+    <div class="button">
+       <button id="btnConfirm">Đồng ý</button>
+       <button id="btnReset">Reset</button>
     </div>
-    
+    <div class="noti">
+    </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
