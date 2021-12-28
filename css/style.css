@@ -1,0 +1,59 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.container-fluid{
+    padding:0;
+}
+.col-md-6{
+    display:flex;
+    flex-direction: row;
+}
+.hotline-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.hotline-num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    color:#FFFF63;
+    font-weight: 500;
+    font-size: 20px;
+}
+.hotline-num i{
+    font-size: 10px;
+    margin:10px 0px 0px 10px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+.col-md-6.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container.top ul{
+    display: flex;
+    color:white;
+    margin:10px;
+}
+.container.top ul li{
+    margin:0px 10px 0px 10px;
+    list-style: none;
+    cursor: pointer;
+}
+.container.logo{
+    margin:10px;
+}
+.navbar i{
+    margin-left:10px;
+    font-size:30px;
+    cursor: pointer;
+}
+.navbar .nav-link{
+    color:#879AAC;
+}

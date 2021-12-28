@@ -1,0 +1,25 @@
+.booking-form{
+    width: 1000px;
+    height: 500px;
+    margin:auto;
+    background-color: rgb(255, 227, 190);
+    border: solid black 2px;
+}
+.box{
+    width: 100%;
+    height: 40px;
+    display:flex;
+}
+.label{
+    width:30%;
+    border-bottom: solid black 2px;
+}
+.input{
+    width: 70%;
+    padding-left:5px;
+    border-bottom: solid black 2px;
+    border-left: solid black 2px;
+}
+.input-khach{
+    margin-left: 10px;
+}
